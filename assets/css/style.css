@@ -109,10 +109,17 @@ ul#lista-carrito {
 }
 
 ul#lista-carrito li {
-  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff7f0;
+  padding: 10px 15px;
+  margin: 10px auto;
+  border-radius: 8px;
+  max-width: 400px;
   font-size: 18px;
   color: #3e2723;
-  text-align: left;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 ul#lista-carrito li button {
